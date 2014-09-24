@@ -4,7 +4,11 @@
  *
  * See the individual environment DB configs for specific config information.
  */
-
-return array(
-
+return array (
+		'default' => array (
+				'connection' => array (
+						'dsn' => 'mysql:host=localhost;dbname=Notice',
+						'username' => 'root'
+				)
+		)
 );

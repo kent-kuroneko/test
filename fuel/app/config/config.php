@@ -42,7 +42,7 @@ return array(
 	 *
 	 * Set this to 'index.php if you don't use URL rewriting
 	 */
-	// 'index_file' => false,
+	 'index_file' => false,
 
 	// 'profiling'  => false,
 
@@ -271,9 +271,10 @@ return array(
 		 *     array('auth'	=> PKGPATH.'auth/')
 		 * );
 		 */
-		// 'packages'  => array(
-		// 	//'orm',
-		// ),
+		'packages'  => array(
+			'orm',
+			'auth',
+		),
 
 		/**
 		 * These modules are always loaded on Fuel's startup. You can specify them
